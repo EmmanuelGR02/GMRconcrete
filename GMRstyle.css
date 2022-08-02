@@ -1,0 +1,80 @@
+body {
+    background-color: gray;
+}
+
+/* Main title */
+.mainTitle {
+    color: black;
+    text-align: center;
+    font: icon;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: -7%;
+}
+.weDo {
+    color: black;
+    font-family:fantasy;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -2.5%;
+}
+/* Main Images */
+.GMRblack{
+    margin-left: 0%;
+    width: 350px;
+    height: 150px;
+}
+.GMRlogo {
+    margin-left: 75%;
+    margin-top: -85%;
+    width: 350px;
+    height: 150px;
+}
+
+/* Work tabs */
+.projectLinks {
+    white-space: nowrap;
+}
+  
+.projectLinks > div {
+    display: inline-block;
+}
+.concrete {
+    width: 170px;
+    margin-left: 55%;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fence {
+    width: 122px;
+    margin-left: 5%;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.tree {
+    width: 111px;
+    margin-left: 5%;
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+/* give links a shadow when hovering on them */
+.tree:hover {
+    background-color: white;
+}
+.concrete:hover {
+    background-color: white;
+}
+.fence:hover {
+    background-color: white;
+}
