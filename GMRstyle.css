@@ -8,16 +8,16 @@ body {
 }
 .title {
     margin-left: 0%;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /* Main Images */
 .GMRblack {
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    height: 120px;
 }
 .GMRlogo {
     margin-left: 0%;
-    width: 150px;
-    height: 80px;
+    width: 200px;
+    height: 120px;
 }
