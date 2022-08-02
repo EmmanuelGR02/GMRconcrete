@@ -1,5 +1,7 @@
 body {
     background-color: gray;
+    background-image: url("GMRlogo.png");
+    background-position: center;
 }
 
 /* Main Title */
@@ -9,36 +11,31 @@ body {
 }
 .title {
     left: 41%;
-    position: absolute;
     font-size: 20px;
     cursor: pointer;
 }
 /* Images */
 .GMRblack {
-    position: absolute;
     left: 28%;
     top: 1%;
     height: 100px;
     width: 150px;
 }
 .GMRlogo {
-    position: absolute;
    height: 100px;
-   width: 150px;  
-    left: 62%;   
-    top: 1%;
+   width: 150px;
+   left: 62%;
+   top: 1%;
 }
 .imgDiv {
-top: 3%;
+    top: 3%;
     /* border: 2px solid black; */
     width: 700px;
 }
 .weDo {
     font-size: 12px;
-    position: absolute;
     left: 40%;
     top: 6%;
     width: 280px;
-    position: flex;
     /* border: 2px solid white; */
 }
