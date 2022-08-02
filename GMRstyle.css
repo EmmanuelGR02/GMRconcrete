@@ -4,27 +4,20 @@ body {
 
 /* Main title div Style */
 .titleDiv {
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
+    
 }
 .title {
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 30px;
-}
-.weDo {
-    font-size: 10px;
-    margin-top: 6%;
-    margin-left: -30%;
 }
 
 /* Main Images */
 .GMRblack {
-    width: 180px;
-    height: 100px;
+    width: 150px;
+    height: 80px;
 }
 .GMRlogo {
-    margin-left: 12%;
-    width: 180px;
-    height: 100px;
+    margin-left: 0%;
+    width: 150px;
+    height: 80px;
 }
