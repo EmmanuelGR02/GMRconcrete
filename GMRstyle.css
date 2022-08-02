@@ -1,41 +1,30 @@
 body {
-    background-color: gray;
-    background-image: url("GMRlogo.png");
-    background-position: center;
+    background-color: lightslategray;
 }
 
-/* Main Title */
-.mainTitleDiv {
-    /* border: 2px solid black; */
-    height: 200px;
+/* Main title div Style */
+.titleDiv {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
 }
 .title {
-    left: 41%;
-    font-size: 20px;
-    cursor: pointer;
-}
-/* Images */
-.GMRblack {
-    left: 28%;
-    top: 1%;
-    height: 100px;
-    width: 150px;
-}
-.GMRlogo {
-   height: 100px;
-   width: 150px;
-   left: 62%;
-   top: 1%;
-}
-.imgDiv {
-    top: 3%;
-    /* border: 2px solid black; */
-    width: 700px;
+    margin-left: 5%;
+    font-size: 30px;
 }
 .weDo {
-    font-size: 12px;
-    left: 40%;
-    top: 6%;
-    width: 280px;
-    /* border: 2px solid white; */
+    font-size: 10px;
+    margin-top: 6%;
+    margin-left: -30%;
+}
+
+/* Main Images */
+.GMRblack {
+    width: 180px;
+    height: 100px;
+}
+.GMRlogo {
+    margin-left: 12%;
+    width: 180px;
+    height: 100px;
 }
