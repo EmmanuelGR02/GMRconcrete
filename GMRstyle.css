@@ -4,7 +4,7 @@ body {
 
 /* Main title div Style */
 .titleDiv {
-    
+    padding: 0px;
 }
 .title {
     margin-left: 0%;
@@ -13,11 +13,30 @@ body {
 
 /* Main Images */
 .GMRblack {
+    margin-top: -2%;
+    margin-right: 5%;
     width: 200px;
     height: 120px;
 }
 .GMRlogo {
-    margin-left: 0%;
+    margin-top: -2%;
+    margin-right: 0%;
     width: 200px;
     height: 120px;
+}
+
+/* Link Div Style */
+.divLinks {
+    display: flex;
+    align-content: center;
+    border: 3px solid black;
+    padding-left: 57%;
+    width: 101%;
+    margin-left: -1%;
+}
+.jobLinks {
+    cursor: pointer;
+    margin-right: 40px;
+    text-decoration: underline;
+    font-weight: bolder;
 }
