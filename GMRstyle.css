@@ -2,6 +2,16 @@ body {
     background-color: gray;
 }
 
+#colorstriptext {
+
+    /*just edited part*/
+    
+    width: 100%;
+    
+    margin-left: 12%;
+    
+}
+
 /* Main title */
 .mainTitle {
     color: black;
