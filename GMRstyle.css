@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    width: 100%;
 }
 
 /* Main Title */
@@ -8,7 +9,7 @@ body {
     height: 200px;
 }
 .title {
-    font-size: 50px;
+    font-size: 20px;
     cursor: pointer;
 }
 /* Images */
