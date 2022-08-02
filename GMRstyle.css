@@ -4,24 +4,35 @@ body {
 
 /* Main Title */
 .mainTitleDiv {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
 }
 .title {
-    font-size: 20px;
-    margin-top: -3em;
+    font-size: 50px;
     cursor: pointer;
 }
-
 /* Images */
 .GMRblack {
+    margin-left: -75%;
+    margin-top: 1%;
     height: 100px;
-    width: 200px;
-    margin-left: -40em;
+    width: 150px;
 }
 .GMRlogo {
-    height: 100px;
-    width: 200px;
-    margin-left: 40em;
-    margin-top: -5em;
+   height: 100px;
+   width: 150px;  
+   margin-left: 75%;   
+   margin-top: -10%;
+}
+.imgDiv {
+    margin-top: -3%;
+    /* border: 2px solid black; */
+    width: 700px;
+}
+.weDoDiv {
+    margin-left: -5%;
+    margin-top: -12%;
+    width: 280px;
+    position: flex;
+    /* border: 2px solid white; */
 }
