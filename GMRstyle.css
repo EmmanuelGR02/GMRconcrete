@@ -34,7 +34,8 @@ body {
 }
 .jobLinks {
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 18px;
+    margin-left: 18px;
     text-decoration: underline;
     font-weight: bolder;
     transition-delay: 0s;
@@ -58,4 +59,13 @@ body {
 }
 .jobLinks1:hover {
     background-color: aliceblue;
+}
+
+/* Display div style */
+.displayDiv {
+    box-shadow: 10px 15px 25px 10px black;
+    margin-top: 2%;
+    width: 400px;
+    height: 600px;
+    background-color: lightsteelblue;
 }
