@@ -52,7 +52,7 @@ body {
     margin-left: -3%;
     font-size: 20px;
     font-weight: bolder;
-    color: bisque;
+    color: red;
 }
 .jobLinks:hover {
     background-color: aliceblue;
@@ -62,10 +62,13 @@ body {
 }
 
 /* Display div style */
-.displayDiv {
+.aboutCompany {
     box-shadow: 10px 15px 25px 10px black;
     margin-top: 2%;
     width: 400px;
     height: 600px;
     background-color: lightsteelblue;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
