@@ -40,7 +40,7 @@ body {
     font-weight: bolder;
     transition-delay: 0s;
 }
-.jobLinks1 {
+.concreteLink {
     margin-left: 9%;
     margin-right: 10px;
     cursor: pointer;
@@ -55,20 +55,65 @@ body {
     color: black;
 }
 .jobLinks:hover {
-    background-color: aliceblue;
+    background-color: black;
 }
-.jobLinks1:hover {
-    background-color: aliceblue;
+.concreteLink:hover {
+    background-color: white;
 }
 
-/* Display div style */
+/* Main Page Divs style */
 .aboutCompany {
-    box-shadow: 10px 15px 25px 10px black;
+    box-shadow: 5px 7px 14px 5px black;
     margin-top: 2%;
     width: 400px;
-    height: 600px;
+    height: 450px;
     background-color: lightsteelblue;
     padding-right: 10px;
     padding-left: 10px;
 
+}
+.mainConcreteDiv {
+    box-shadow: 5px 7px 14px 5px black;
+    margin-top: 2%;    
+    margin-top: 2%;
+    width: 400px;
+    height: 450px;
+    background-color: gray;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 58%;
+}
+.mainTreeDiv {
+    box-shadow: 5px 7px 14px 5px black;
+    margin-top: 2%;   
+    margin-top: 2%;
+    width: 400px;
+    height: 450px;
+    background-color: lightseagreen;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.mainFenceDiv {
+    box-shadow: 5px 7px 14px 5px black;
+    margin-top: 2%;    
+    margin-top: 2%;
+    width: 400px;
+    height: 450px;
+    background-color: lightgoldenrodyellow;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 58%;
+}
+/* Main Div Hover */
+.aboutCompany:hover {
+    box-shadow: 15px 15px 35px 20px black;
+}
+.mainConcreteDiv:hover {
+    box-shadow: -20px -15px 35px 5px black;
+}
+.mainTreeDiv:hover {
+    box-shadow: 15px 15px 35px 15px black;
+}
+.mainFenceDiv:hover {
+    box-shadow: -20px -15px 35px 5px black;
 }
